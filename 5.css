@@ -1,0 +1,27 @@
+* {
+    animation-name: changing;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes changing {
+    0%{
+        background-image: url(assets/img1.jpg);
+    }
+    40%{
+        background-image: url(assets/img2.jpg);
+        
+    }
+    
+    75%{
+        background-image: url(assets/img3.jpg);
+        
+    }
+    100%{
+        background-image: url(assets/img1.jpg);
+    }
+}
+
+
+
